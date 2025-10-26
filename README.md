@@ -1,6 +1,12 @@
-# Halozen — Thermoelectric Migraine Relief (Landing Page)
+# Halozen — Landing Page (Astro + Tailwind)
 
-A fast, free, and deploy-ready landing page built with **Astro + Tailwind**.
+Updated with the requested edits:
+- Removed "New • Thermoelectric migraine relief" badge
+- Removed prototype note box under hero buttons
+- Removed thermoelectric/Peltier wording from "Targeted cooling"
+- Removed "pocket-friendly" wording from "Portable & silent"
+- Removed "Why people will love Halozen" section
+- Converted Join Waitlist → Register interest (text + anchors)
 
 ## Quickstart
 ```bash
@@ -8,18 +14,6 @@ npm install
 npm run dev
 ```
 
-Visit http://localhost:4321
-
-## Deploy (Free)
-- **Vercel** (recommended): Import the repo → it auto-detects Astro.
-- **Netlify**: New site from Git → Build command `npm run build`, Publish directory `dist`.
-- **GitHub Pages**: `npm run build` → publish the `dist/` folder.
-
-## Configure the Waitlist Form
-This template uses a Formspree action URL. Replace `YOUR_FORM_ID` in `src/pages/index.astro` with your own
-(create one at https://formspree.io — free tier available).
-
-## Customize
-- Update colors in `tailwind.config.mjs`
-- Edit copy in `src/pages/index.astro`
-- Add legal text in `src/pages/privacy.astro`
+## Deploy
+- Vercel: Import this repo, auto-detects Astro
+- Netlify: Build `npm run build`, publish `dist/`

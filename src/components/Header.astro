@@ -2,8 +2,7 @@
 const nav = [
   { href: "#how", label: "How it works" },
   { href: "#science", label: "Science" },
-  { href: "#benefits", label: "Benefits" },
-  { href: "#join", label: "Join Waitlist" },
+  { href: "#register", label: "Register" },
 ];
 ---
 <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
@@ -17,6 +16,6 @@ const nav = [
         <a href={item.href} class="hover:text-brand">{item.label}</a>
       ))}
     </nav>
-    <a href="#join" class="md:hidden px-3 py-2 rounded-xl bg-brand text-white">Join</a>
+    <a href="#register" class="md:hidden px-3 py-2 rounded-xl bg-brand text-white">Register</a>
   </div>
 </header>
