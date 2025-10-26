@@ -1,0 +1,16 @@
+---
+const { title = "Halozen — Smart Cooling for Migraine Relief", description = "Drug-free, fast-acting thermoelectric migraine relief technology." } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+  </head>
+  <body class="antialiased bg-white text-gray-900">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,22 @@
+---
+const nav = [
+  { href: "#how", label: "How it works" },
+  { href: "#science", label: "Science" },
+  { href: "#benefits", label: "Benefits" },
+  { href: "#join", label: "Join Waitlist" },
+];
+---
+<header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="/" class="flex items-center gap-2 font-semibold text-lg">
+      <span class="inline-block h-6 w-6 rounded-full bg-gradient-to-r from-brand-light to-brand"></span>
+      Halozen
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      {nav.map((item) => (
+        <a href={item.href} class="hover:text-brand">{item.label}</a>
+      ))}
+    </nav>
+    <a href="#join" class="md:hidden px-3 py-2 rounded-xl bg-brand text-white">Join</a>
+  </div>
+</header>
